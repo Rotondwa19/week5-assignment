@@ -3,7 +3,7 @@
 def write_to_file(filename):
     try:
         with open(filename, 'w') as f:
-            f.write("I am 23 in age\n")
+            f.write("This is the best to come 1\n")
             f.write("589632 let go\n")
             f.write("my siblings age are 5, 13 , 8.3 \n")
     except FileNotFoundError:
